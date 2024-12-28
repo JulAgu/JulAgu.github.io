@@ -18,4 +18,4 @@ Useful resources
 ======= 
 * [Imputación de datos faltantes en hidrología](http://julagu.github.io/files/imputation_hidrology.pdf)
 
-* [The gitHub repository for the practical component](http://julagu.github.io/404.html)
+* [The Github repository for the practical component](http://julagu.github.io/404.html)
