@@ -12,7 +12,7 @@ This workshop aims to help students to learn how to properly implement ML techni
 
 Introduction
 ======
-This workshop, designed for third-year agricultural engineering students, aims to provide a brief introduction to machine learning, explore the concept of missing data, and introduce the different types of missing data. The main section will focus on learning how to implement machine learning techniques for imputing missing data and evaluating the uncertainty associated with these methods.
+This workshop, designed for third-year agricultural engineering students, aims to provide a brief introduction to machine learning, explore the concept of missing data, and introduce the different types of missing data. The main section will focus on learning how to implement ML techniques for imputing missing data and evaluating the uncertainty associated with these methods.
 
 Useful resources
 ======= 
