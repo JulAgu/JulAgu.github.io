@@ -1,0 +1,15 @@
+---
+layout: archive
+permalink: /music/
+title: ""
+author_profile: true
+---
+
+{% include base_path %}
+
+All my life I have been in close relationship with music. With my relocation to France and my new professional interests, the days of creating music are behind me.
+ Despite this, music continues to be one of my greatest interests and is part of my daily life. <b>Here is some music in which I participated.</b>
+
+{% for post in site.music %}
+  {% include archive-music.html %}
+{% endfor %}
