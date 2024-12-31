@@ -43,7 +43,7 @@
         {% endif %}
 
   {% if post.video %}    
-      <div class="youtube-wrapper" style="display: flex; align-items: center; justify-content: center; width: 50%; padding:0em 0em 0em 0em">
+      <div class="youtube-wrapper" style="display: flex; align-items: center; justify-content: center; padding:0em 0em 0em 0em">
         <iframe src={{ post.video }} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
