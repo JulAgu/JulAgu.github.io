@@ -8,7 +8,7 @@ tags:
   - History
 ---
 
-**[Under construction: C, come back the 05 jan]** Corrían los años 40 cuando un puñado de científicos obsesionados con desentrañar los secretos de la inteligencia decidió adoptar una estrategia activa: **Construir una máquina inteligente**.
+Corrían los años 40 cuando un puñado de científicos obsesionados con desentrañar los secretos de la inteligencia decidió adoptar una estrategia activa: **Construir una máquina inteligente**.
 
 En este artículo pretendo contar la historia de la inteligencia artificial, sacando partido de la memorable forma en la que mis profesores me la contaron. En español, limitando los tecnicismos y con el ánimo de aligerar la narración para que cualquiera pueda disfrutarla.
 
@@ -42,8 +42,6 @@ Para los años 40s grandes hitos de la computación habían tenido lugar. Por un
 --->
 
 Gracias a estos antecedentes, el panorama científico de los 40s era tierra fértil para que la Inteligencia Artificial viera la luz. Para varios historiadores de la disciplina, los primeros esfuerzos reales por construir máquinas inteligentes tuvieron lugar entre los 40s y los 60s [^1] [^3].
-
-
 
 Métodos generales de razonamiento (1956-1968)
 ======
