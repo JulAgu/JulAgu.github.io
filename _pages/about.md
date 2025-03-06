@@ -15,7 +15,9 @@ Given the industrial focus of my PhD, I implement part of my research as on-dema
 
 News
 ------
-🌱 **23/02/25:** I'll be participating in the GAIA (**G**enerative **A**rtificial **I**ntelligence for **A**griculture) Hackathon at the [SIA](https://www.salon-agriculture.com/), alongside a team of star developers from [Agrial](https://www.agrial.com/en/).
+- **05/03/25:** Our paper: **Drought forecasting using a hybrid neural architecture for integrating time series and static data** was accepted at the [Climate Change AI CCAI Workshop](https://www.climatechange.ai/events/iclr2025) at the ICLR 2025 conference.
+
+- **23/02/25:** I'll be participating in the GAIA (**G**enerative **A**rtificial **I**ntelligence for **A**griculture) Hackathon at the [SIA](https://www.salon-agriculture.com/), alongside a team of star developers from [Agrial](https://www.agrial.com/en/).
 
 <!---
 TODO: General Clean !!! The repository is a mess regarding my needs
