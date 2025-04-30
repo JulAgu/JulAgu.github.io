@@ -49,7 +49,21 @@
     {% endif %}
 
     {% if post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Paper Here !</a></p>
+      <a href=" {{ post.paperurl }} " target="_blank" style="text-decoration: none;">
+        <i class="fa-solid fa-globe" style="font-size:36px;color:#3fbb78;"></i>
+      </a>
+    {% endif %}
+
+    {% if post.paperpdf %}
+      <a href=" {{ base_path }}{{ post.paperpdf }} " target="_blank" style="text-decoration: none;">
+        <i class="fa-solid fa-file-pdf" style="font-size:36px;color:#3fbb78"></i>
+      </a>
+    {% endif %}
+
+    {% if post.papercode %}
+      <a href=" {{ post.papercode }} " target="_blank" style="text-decoration: none;">
+        <i class="fa-brands fa-github" style="font-size:36px;color:#3fbb78"></i>
+      </a>
     {% endif %}
 
   </article>
