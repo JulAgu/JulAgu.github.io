@@ -159,6 +159,7 @@ analytics:
 include:
   - .htaccess
   - _pages
+  - _posts
   - files
 exclude:
   - "*.sublime-project"
@@ -222,6 +223,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  portfolio:
+    output: true 
+    permalink: /:collection/:path/
   music:
     output: true
     permalink: /:collection/:path/
@@ -236,7 +240,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
+      comments: true
       share: true
+      related: true
   # _pages
   - scope:
       path: ""
@@ -268,7 +275,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
   # _music
   - scope:
       path: ""
