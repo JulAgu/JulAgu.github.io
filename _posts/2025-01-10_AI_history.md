@@ -1,7 +1,7 @@
 ---
 title: 'Breve historia de la inteligencia artificial'
 date: 2025-01-05
-permalink: /posts/2025/01/AI_history/
+permalink: /posts/2025/01/AI_history
 tags:
   - Spanish
   - AI
