@@ -8,11 +8,11 @@ tags:
   - History
 ---
 
-Corrían los años 40 cuando un puñado de científicos obsesionados con desentrañar los secretos de la inteligencia decidió adoptar una estrategia activa: **Construir una máquina inteligente**.
+Corrían los años 40 cuando un puñado de científicos, interesados en desentrañar los secretos de la inteligencia decidió adoptar una estrategia activa: **Construir una máquina inteligente**.
 
 En este artículo pretendo contar la historia de la inteligencia artificial, sacando partido de la memorable forma en la que mis profesores me la contaron. En español, limitando los tecnicismos y con el ánimo de aligerar la narración para que cualquiera pueda disfrutarla.
 
-Lógica, racionalismo e inducción (< 1930)
+Prefacio : Lógica, racionalismo e inducción (< 1930)
 ======
 **De la mano de:** Aristóteles, Hobbes, Pascal, Leibniz, Descartes, McCulloch, Pitts y Hebb.
 
@@ -60,5 +60,3 @@ Aprendizaje estadístico (1955 - Hoy)
 [^2]: Hobbes, T. (1999). De corpore : elementorum philosophiae sectio prima. 417.
 
 [^3]: Nilsson NJ. The Quest for Artificial Intelligence. (2009) Cambridge University Press.
-
-
