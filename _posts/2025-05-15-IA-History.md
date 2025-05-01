@@ -1,11 +1,12 @@
 ---
-title: 'Breve historia de la inteligencia artificial'
+title: '[In progress] Breve historia de la inteligencia artificial'
 date: 2025-01-05
-permalink: /posts/2025-AI_history
+permalink: /posts/2025/5/IA-history/
 tags:
   - Spanish
   - AI
   - History
+
 ---
 
 Corrían los años 40 cuando un puñado de científicos, interesados en desentrañar los secretos de la inteligencia decidió adoptar una estrategia activa: **Construir una máquina inteligente**.
@@ -60,3 +61,4 @@ Aprendizaje estadístico (1955 - Hoy)
 [^2]: Hobbes, T. (1999). De corpore : elementorum philosophiae sectio prima. 417.
 
 [^3]: Nilsson NJ. The Quest for Artificial Intelligence. (2009) Cambridge University Press.
+
