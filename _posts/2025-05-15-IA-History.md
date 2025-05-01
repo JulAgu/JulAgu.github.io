@@ -37,7 +37,7 @@ Una cosa es decir que la mente funciona, al menos en parte, según reglas lógic
 
 Nacimiento de la Inteligencia Artificial (1940-1956)
 ======
-Para los años 40s grandes hitos de la computación habían tenido lugar. Por un lado, Alan Turing había formulado el concepto de algoritmo y había diseñado la máquina de Turing, quien además creía que, entre todas las capacidades de los computadores, estaba la de imitar la inteligencia humana. Por otro lado, Claude Shannon había propuesto una serie de circuitos electrónicos que permitían desarrollar cualquier operación del álgebra booleana. Poco después, Konrad Zuse había construido la primera computadora electromecánica programable: la Z1.
+Para los años 40s grandes hitos de la computación habían tenido lugar. Por un lado, Alan Turing había formalizado el concepto de algoritmo y había formulado su famosa máquina de Turing. Por otro lado, Claude Shannon había propuesto una serie de circuitos electrónicos que permitían desarrollar cualquier operación del álgebra booleana. Poco después, Konrad Zuse había construido la primera computadora electromecánica programable: la Z1.
 <!---
 #TODO: Links for the TM and for the Z1 ?
 --->
