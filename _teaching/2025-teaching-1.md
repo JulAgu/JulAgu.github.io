@@ -1,21 +1,22 @@
 ---
-title: "[In Spanish][Under construction] Imputación de datos faltantes en hidrología"
+title: "[In Spanish][Under construction] Imputación de datos hidrológicos usando algoritmos de Machine Learning"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Universidad Nacional de Colombia, Departamento de Ingeniería Civil y Agricola"
-date: 2025-01-01
+date: 2025-05-10
 location: "On line"
 ---
 
-This workshop aims to introduce students to the effective implementation of machine learning techniques for imputing missing hydrological data.
+This workshop aims to introduce third-year agricultural engineering students to the effective implementation of machine learning techniques for imputing missing values in hydrological data.
 
-Introduction
-======
-Designed for third-year agricultural engineering students, this workshop aims to explore the concept of missing data and to introduce its different types. The main section focus on implementing machine learning techniques for data imputation and evaluating the uncertainty associated with these methods.
+After an introductory overview to AI and ML, the main section focus on implementing machine learning algorithms for data imputation and evaluating the uncertainty associated with these methods. The workshop includes practical exercises using jupyter notebooks.
 
-Useful resources
+I gave this workshop as a guest lecturer in the hydrology course of Professor [Carlos Gonzales](https://www.researchgate.net/profile/Carlos-Gonzalez-Murillo).
+
+
+Resources
 ======= 
-* [Slides: Imputación de datos faltantes en hidrología](http://julagu.github.io/files/imputation_hidrology.pdf)
+* [Slides](http://julagu.github.io/files/imputation_hidrology.pdf)
 
 * [Github repository for the practical component](http://julagu.github.io/404.html)
