@@ -1,5 +1,5 @@
 ---
-title: "[In Spanish][Under construction] Imputación de datos hidrológicos usando algoritmos de Machine Learning"
+title: "[In Spanish] Imputación de datos hidrológicos usando algoritmos de Machine Learning"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2014-spring-teaching-1
