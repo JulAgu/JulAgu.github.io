@@ -15,6 +15,8 @@ Given the industrial focus of my PhD, I implement part of my research as on-dema
 
 News
 ------
+- **08/06/25:** I'll be attending to the CAP 2025 in Dijon,fr between the 30th june and the 2th july. The 30th june at 16h00, I'll be presenting our paper: **Prévision de sécheresse en utilisant une architecture neuronale hybride intégrant des séries temporelles et des données statiques**.
+
 - **24/04/25:** I'll be attending to the ICLR 2025 in Singapore between the 24th and the 28th april. I'll be attending the [Tackling Climate Change with Machine Learning Workshop](https://www.climatechange.ai/events/iclr2025) the 28th april to present our paper: [**Drought forecasting using a hybrid neural architecture for integrating time series and static data**](https://www.climatechange.ai/papers/iclr2025/31).
 
 - **05/03/25:** Our paper: [**Drought forecasting using a hybrid neural architecture for integrating time series and static data**](https://www.climatechange.ai/papers/iclr2025/31) was accepted at the [Climate Change AI CCAI Workshop](https://www.climatechange.ai/events/iclr2025) at the ICLR 2025 conference.
