@@ -19,4 +19,4 @@ Resources
 ======= 
 * [Slides](http://julagu.github.io/files/imputation_hidrology.pdf)
 
-* [Github repository for the practical component](https://github.com/JulAgu/ML_data_imputation)
+* [GitHub repository for the practical component](https://github.com/JulAgu/ML_data_imputation)
