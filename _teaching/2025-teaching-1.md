@@ -2,6 +2,7 @@
 title: "[In Spanish] Imputación de datos hidrológicos usando algoritmos de Machine Learning"
 collection: teaching
 type: "Workshop"
+author_profile: false
 permalink: /teaching/2014-spring-teaching-1
 venue: "Universidad Nacional de Colombia, Departamento de Ingeniería Civil y Agricola"
 date: 2025-05-10

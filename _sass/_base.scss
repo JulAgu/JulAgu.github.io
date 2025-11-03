@@ -179,14 +179,13 @@ li ol {
 /* Figures and images */
 
 figure {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-          align-items: flex-start;
-  flex-wrap: wrap;
-  margin: 2em 0;
+  flex-direction: column;     /* stack image + caption vertically */
+  align-items: center;        /* center horizontally */
+  justify-content: center;    /* center vertically if needed */
+  margin: 2em auto;
+  text-align: center;         /* center caption text */
+  width: 100%;
 
   img,
   iframe,
@@ -215,6 +214,7 @@ figure {
 
     figcaption {
       width: 100%;
+      text-align: center;
     }
   }
 
@@ -228,6 +228,7 @@ figure {
 
     figcaption {
       width: 100%;
+      text-align: center;
     }
   }
 }
