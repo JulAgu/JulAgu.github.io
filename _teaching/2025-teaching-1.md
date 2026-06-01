@@ -3,7 +3,7 @@ title: "[In Spanish] Imputación de datos hidrológicos usando algoritmos de Mac
 collection: teaching
 type: "Workshop"
 author_profile: false
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/2025_unal
 venue: "Universidad Nacional de Colombia, Departamento de Ingeniería Civil y Agricola"
 date: 2025-05-10
 location: "On line"
