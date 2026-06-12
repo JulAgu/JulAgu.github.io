@@ -18,7 +18,10 @@ main:
     url: /talks/
 
   - title: "Music"
-    url: /music/    
+    url: /music/
+
+  - title: "Fun Stuff"
+    url: /fun-stuff/
     
   # - title: "Portfolio"
   #   url: /portfolio/
