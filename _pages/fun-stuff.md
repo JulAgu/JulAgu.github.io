@@ -5,20 +5,16 @@ title: "Fun Stuff"
 author_profile: true
 ---
 
-A few insignificant thoughts and a few stolen ideas for the idle website surfer
+A few insignificant thoughts and stolen ideas for the idle website surfer
 
 Quotes
 ------
-Yes, I'm a learning geek...
 
 > In the end, the real representation learned was the friends we fine-tuned along the way.
 **J.A**
 
-> "Simple baseline" means six months of engineering.
-**J.A**
-
 > Pertinence Barbillon a été primesque comme tous les jeudis
-**I. S. à propos de P. B.** (taken from [Louis's Home Page](https://polarolouis.fr/))
+**I.S. à propos de P.B.** (taken from [Louis's Home Page](https://polarolouis.fr/))
 
 
 AI Goodfathers Facts
@@ -30,9 +26,6 @@ A compilation of my favorites taken from Reddit logs and from [Yann Lecun's Home
 - I'm not going to talk about philosophical things or why I stopped coming to AAAI or anything like that (Geoff at AAAI 2020).
 - Schmidhuber was robbed.
 - Schmidhuber did it first.
-- Before publishing a paper, researchers ask whether Jürgen already thought of it in 1991.
-- Jürgen's literature reviews begin before the literature.
-- Ilya's toy models require national infrastructure.
 
 Miscellaneus 
 ------
