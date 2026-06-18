@@ -16,6 +16,9 @@ Quotes
 > Pertinence Barbillon a été primesque comme tous les jeudis
 **I.S. à propos de P.B.** (taken from [Louis's Home Page](https://polarolouis.fr/))
 
+> À ce sujet, je sais comment démontrer les deux : que ça marche et que ça ne marche pas.
+**V.G.**
+
 
 AI Goodfathers Facts
 ------
