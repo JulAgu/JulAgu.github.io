@@ -22,7 +22,7 @@ Quotes
 
 AI Goodfathers Facts
 ------
-A compilation of my favorites taken from Reddit logs and from [Yann Lecun's Home Page](http://yann.lecun.com/ex/fun/index.html)
+A compilation of my favorites taken from Reddit blogs and from [Yann Lecun's Home Page](http://yann.lecun.com/ex/fun/index.html)
 
 - Geoff Hinton doesn't need to make hidden units. They hide by themselves when he approaches (from Yann Lecun).
 - Geoff Hinton's generalizations are boundless (from Yann Lecun).
@@ -33,18 +33,24 @@ A compilation of my favorites taken from Reddit logs and from [Yann Lecun's Home
 Miscellaneus 
 ------
 > It is traditional for the author to magnanimously accept the blame for whatever deﬁciencies remain. I don’t. Any errors, deﬁciencies, or problems in this book are somebody else’s fault, but I would appreciate knowing about them so as to determine who is to blame.
-**Steven S. Skiena**, The Algorithm Design Manual (1997)
+> 
+> **Steven S. Skiena**, The Algorithm Design Manual (1997)
 
 > An algorithm is an explicit, precise, unambiguous, mechanically-executable sequence of elementary instructions, usually intended to accomplish a specific
 purpose. For example, here is an algorithm for singing that annoying song “99 Bottles of Beer on the Wall”, for arbitrary values of 99:
+>
+> ```
+> BottlesOfBeer(n):
+>     For i ← n down to 1
+>         SING "i bottles of beer on the wall, {i} bottles of beer,"
+>         SING “Take one down, pass it around, {i - 1} bottles of beer on the wall."
+>     SING "No bottles of beer on the wall, no bottles of beer,”
+>     SING "Go to the store, buy some more, {n} bottles of beer on the wall."
+> ```
+> **Jeff Erickson**, Algorithms (2019)
 
-```
-BottlesOfBeer(n):
-    For i ← n down to 1
-        SING "i bottles of beer on the wall, {i} bottles of beer,"
-        SING “Take one down, pass it around, {i - 1} bottles of beer on the wall."
-    SING "No bottles of beer on the wall, no bottles of beer,”
-    SING "Go to the store, buy some more, {n} bottles of beer on the wall."
-```
-**Jeff Erickson**, Algorithms (2019)
-
+> What's the different between Machine learning and AI?
+>>If it's written in Python, then it's probably Machine Learning.
+If it's written in PowerPoint, then it's probably AI.
+>
+> **iBug** on the Data Science Stack Exchange blog.
