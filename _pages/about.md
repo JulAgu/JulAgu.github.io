@@ -18,6 +18,8 @@ News
 
 <div class="news-scroll" markdown="1">
 
+- **23/09/26** I had the great pleasure of giving a seminar presenting our work on [transfer learning under temporal asymmetric supervision](/files/CEA_list_september_26_seminary.pdf) at CEA List. Many thanks to them for the invitation.
+
 - **10/09/26** 🎓 Kudos to [Ismaïl](https://www.linkedin.com/in/ismail-elyousfi/) on the successful completion of his Master’s thesis (Mémoire de fin d'études)! It was a pleasure to co-supervise his research journey on **multi-scale modeling and what-if scenario generation for dairy production forecasting** alongside [Cristina Manfredotti](https://mia-ps.inrae.fr/cristina-manfredotti) and to see the project come to fruition.
 
 - **31/08/26** I'm happy to announce that I will be serving as a **Teaching Assistant** for the **Computer Science: Programming and Databases** course at [AgroParisTech](https://www.agroparistech.fr/en) during the 2026-2027 academic year.
