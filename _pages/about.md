@@ -28,15 +28,15 @@ News
 
 - **01/08/26** Our paper: [**Semantic Space Search Trajectory Networks**](https://arxiv.org/abs/2607.25122) was accepted at the [EA 2026: 17th Biennal International Conference on Artificial Evolution](https://ea2026.inria.fr/index.html) conference.
 
-- **01/06/26:** I'll be attending to the [CAP 2026](https://caprfiap2026.sciencesconf.org/) in Montpellier,fr between the 6th and the 8th Jully. I'll be doing poster presentations for our papers: [**Sim-to-Real Transfer with Asymmetric Temporal Supervision Using Alignment on an INR based architecture**](/files/cap_2026_asymmetric_tl.pdf) and [**Modélisation Substitutive de la Croissance des Cultures par Apprentissage Profond Guidé par la Physique**](/files/cap_2026_pg_s2s.pdf).
+- **01/06/26** I'll be attending to the [CAP 2026](https://caprfiap2026.sciencesconf.org/) in Montpellier,fr between the 6th and the 8th Jully. I'll be doing poster presentations for our papers: [**Sim-to-Real Transfer with Asymmetric Temporal Supervision Using Alignment on an INR based architecture**](/files/cap_2026_asymmetric_tl.pdf) and [**Modélisation Substitutive de la Croissance des Cultures par Apprentissage Profond Guidé par la Physique**](/files/cap_2026_pg_s2s.pdf).
 
-- **08/06/25:** I'll be attending to the [CAP 2025](https://pfia2025.u-bourgogne.fr/conferences/cap/) in Dijon,fr between the 30th june and the 2th july. The 30th june at 16h00, I'll be presenting our paper: **Prévision de sécheresse en utilisant une architecture neuronale hybride intégrant des séries temporelles et des données statiques**.
+- **08/06/25** I'll be attending to the [CAP 2025](https://pfia2025.u-bourgogne.fr/conferences/cap/) in Dijon,fr between the 30th june and the 2th july. The 30th june at 16h00, I'll be presenting our paper: **Prévision de sécheresse en utilisant une architecture neuronale hybride intégrant des séries temporelles et des données statiques**.
 
-- **24/04/25:** I'll be attending to the ICLR 2025 in Singapore between the 24th and the 28th april. I'll be attending the [Tackling Climate Change with Machine Learning Workshop](https://www.climatechange.ai/events/iclr2025) the 28th april to present our paper: [**Drought forecasting using a hybrid neural architecture for integrating time series and static data**](https://www.climatechange.ai/papers/iclr2025/31).
+- **24/04/25** I'll be attending to the ICLR 2025 in Singapore between the 24th and the 28th april. I'll be attending the [Tackling Climate Change with Machine Learning Workshop](https://www.climatechange.ai/events/iclr2025) the 28th april to present our paper: [**Drought forecasting using a hybrid neural architecture for integrating time series and static data**](https://www.climatechange.ai/papers/iclr2025/31).
 
-- **05/03/25:** Our paper: [**Drought forecasting using a hybrid neural architecture for integrating time series and static data**](https://www.climatechange.ai/papers/iclr2025/31) was accepted at the [Climate Change AI CCAI Workshop](https://www.climatechange.ai/events/iclr2025) at the ICLR 2025 conference.
+- **05/03/25** Our paper: [**Drought forecasting using a hybrid neural architecture for integrating time series and static data**](https://www.climatechange.ai/papers/iclr2025/31) was accepted at the [Climate Change AI CCAI Workshop](https://www.climatechange.ai/events/iclr2025) at the ICLR 2025 conference.
 
-- **23/02/25:** I'll be participating in the GAIA (**G**enerative **A**rtificial **I**ntelligence for **A**griculture) Hackathon at the [SIA](https://www.salon-agriculture.com/), alongside a team of star developers from [Agrial](https://www.agrial.com/en/).
+- **23/02/25** I'll be participating in the GAIA (**G**enerative **A**rtificial **I**ntelligence for **A**griculture) Hackathon at the [SIA](https://www.salon-agriculture.com/), alongside a team of star developers from [Agrial](https://www.agrial.com/en/).
 
 </div>
 

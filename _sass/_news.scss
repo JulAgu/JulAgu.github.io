@@ -14,6 +14,22 @@
 
   ul {
     margin: 0;
+    padding-left: 1em;
+    list-style: none;
+  }
+
+  /* the leading bold date acts as the bullet, with a hanging indent */
+  li {
+    position: relative;
+    padding-left: 4.3em;
+  }
+
+  li > strong:first-child,
+  li > p:first-child > strong:first-child {
+    position: absolute;
+    left: 0;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
   }
 
   > *:first-child {
