@@ -11,7 +11,7 @@ I am a PhD student in Computer Science - Machine Learning. My research focuses o
 
 I am affiliated to the research unit [UMR MIA](https://mia-ps.inrae.fr/) (Mathématique et Informatique Appliquées), within team [EkINocs](https://mia-ps.inrae.fr/ekinocs) (Expert Knowledge, INteractive modellINg and learnINg for understandINg and decisiOn makINg in dINamic Complexe Systems). My research is conducted under the supervision of [Cristina Manfredotti](https://mia-ps.inrae.fr/cristina-manfredotti), with co-advisors [Vincent Guigue](https://vguigue.github.io/) and [Evelyne Lutton](http://evelyne.lutton.free.fr/).
 
-Given the industrial focus of my PhD, I implement part of my research as on-demand products within the agronomic service of [Agrial](https://www.agrial.com/en/).
+I apply part of my research work in the form of learning algorithms for specific applications at [Agrial](https://www.agrial.com/en/), where I serve as an R&D officer.
 
 News
 ------
