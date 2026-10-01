@@ -18,10 +18,13 @@
     list-style: none;
   }
 
-  /* the leading bold date acts as the bullet, with a hanging indent */
+  /* the leading bold date acts as the bullet, with a hanging indent.
+     The gutter is in `ch` (digit width) rather than `em` so it scales with
+     the actual font: Apple's San Francisco has much wider digits than Arial,
+     which made a fixed 4.3em gutter overlap the text on macOS/iOS. */
   li {
     position: relative;
-    padding-left: 4.3em;
+    padding-left: 9.5ch;
   }
 
   li > strong:first-child,
