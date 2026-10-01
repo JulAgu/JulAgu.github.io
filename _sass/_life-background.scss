@@ -1,0 +1,108 @@
+/* ==========================================================================
+   GAME OF LIFE BACKGROUND
+   Conway's Game of Life evolving behind the page, in the site's main colour.
+   The small badge on the corner of the profile picture switches it on and off.
+   Markup: _includes/author-profile.html (the badge)
+   Behaviour: assets/js/life-background.js (it creates the canvas itself)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   >>> EDIT HERE <<<
+   -------------------------------------------------------------------------- */
+$life-color   : $custom-color; // colour of the living cells
+$life-opacity : 0.12;          // keep it faint so the text stays readable
+$life-fade    : 1s;            // how long it takes to appear / disappear
+$life-badge   : 28px;          // diameter of the on/off badge on wide screens
+$life-badge-s : 18px;          // same, next to the small avatar of narrow screens
+/* -------------------------------------------------------------------------- */
+
+.life-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* 100% of the viewport without its scrollbars: 100vw/100vh would include
+     them and make the page scroll sideways (macOS, iOS) */
+  width: 100%;
+  height: 100%;
+  color: $life-color; // read by the script as the fill colour
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity $life-fade ease-in-out;
+
+  &.is-on {
+    opacity: $life-opacity;
+  }
+}
+
+/* the picture holds the badge in its bottom-right corner */
+.life-avatar {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
+
+/* round on/off badge: outlined while off, filled while the game runs */
+.life-toggle {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  width: $life-badge-s;
+  height: $life-badge-s;
+  padding: 0;
+  border: 1px solid $life-color;
+  border-radius: 50%;
+  background-color: #fff;
+  color: $life-color;
+  font-size: 0.5rem;
+  line-height: $life-badge-s - 2px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(#000, 0.3);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-appearance: none;
+  appearance: none;
+
+  @include breakpoint($large) {
+    right: 6px;
+    bottom: 6px;
+    width: $life-badge;
+    height: $life-badge;
+    font-size: 0.75rem;
+    line-height: $life-badge - 2px;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: mix($life-color, #fff, 15%);
+    color: $life-color;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $life-color;
+    outline-offset: 2px;
+  }
+
+  &[aria-pressed="true"] {
+    background-color: $life-color;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      background-color: mix(#000, $life-color, 15%);
+      color: #fff;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .life-background {
+    transition: none;
+  }
+}
+
+@media print {
+  .life-background {
+    display: none;
+  }
+}

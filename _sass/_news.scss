@@ -10,7 +10,7 @@
   padding: 0.5em 1em 0.5em 0;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background-color: $background-color;
+  background-color: transparent;
 
   ul {
     margin: 0;
@@ -21,7 +21,7 @@
   /* the leading bold date acts as the bullet, with a hanging indent */
   li {
     position: relative;
-    padding-left: 5em;
+    padding-left: 4.3em;
   }
 
   li > strong:first-child,
