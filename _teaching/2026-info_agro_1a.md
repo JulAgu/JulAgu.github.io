@@ -182,3 +182,172 @@ if __name__ == "__main__":
 ```
 
 </details>
+
+## Pour les éleves avancés
+
+Vous maîtrisez la programmation en Python. Vous avez réalisé au moins tous les exercices obligatoires des travaux dirigés 1 et 2. Je vous propose de programmer un petit « grep ».
+
+<details markdown="1">
+<summary>Voir l'excersise</summary>
+
+# Build a Tiny `grep`
+
+In this exercise, you will build a small text-search utility. 
+
+The goal is not to reproduce the full Unix `grep` command ([https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)), but to implement a few interesting features yourself.
+
+Develop your tool in the same directory where you should place the [The test file available here](http://julagu.github.io/files/test_tiny_grep.py). 
+
+---
+
+The actual task consist on implementing the following function :
+
+```python
+find_matches(filename, pattern)
+```
+
+It should search a text file and return every line matching a pattern.
+
+For each match, return:
+
+```python
+(line_number, line)
+```
+
+For example, given the file:
+
+```text
+INFO: Starting server
+INFO: Loading configuration
+ERROR: connection timeout
+INFO: Retrying...
+ERROR: request timeout!
+INFO: Server stopped
+```
+
+this call:
+
+```python
+find_matches("log.txt", "ERROR:*timeout?")
+```
+
+should find:
+
+```python
+[
+    (3, "ERROR: connection timeout"),
+    (5, "ERROR: request timeout!")
+]
+```
+
+Your solution should **not repeatedly scan the pattern or text from the beginning unnecessarily**.
+
+**Think about the algorithm before writing lots of code.**
+
+---
+
+## Pattern Syntax
+
+You **must not use regular expressions**.
+
+Instead, take the following special characters into account during implementation:
+
+| Pattern | Meaning                         |
+| ------- | ------------------------------- |
+| `*`     | Matches zero or more characters |
+| `?`     | Matches exactly one character   |
+
+All other characters match themselves.
+
+### Examples
+
+```python
+matches("hello", "hello")
+# True
+
+matches("hello", "h?llo")
+# True
+
+matches("hello", "h*")
+# True
+
+matches("hello", "*ell*")
+# True
+
+matches("hello world", "h*world")
+# True
+
+matches("hello", "h?ll")
+# False
+
+matches("hello", "bye*")
+# False
+```
+
+---
+
+## Requirements
+
+Your implementation must:
+
+1. Process the file line by line. Do **not** load the entire file into memory.
+
+2. Implement the pattern matching yourself (`re`, `fnmatch` and `glob` or any other external library that performs the matching are not allowed).
+
+3. Line numbers start at **1**.
+
+---
+
+## Test Cases
+
+Your implementation should handle at least these cases:
+
+```python
+assert matches("hello", "hello")
+assert matches("hello", "h?llo")
+assert matches("hello", "h*")
+assert matches("hello", "*")
+assert matches("hello", "*ell*")
+assert matches("hello world", "h*world")
+
+assert not matches("hello", "h?ll")
+assert not matches("hello", "bye*")
+assert not matches("hello", "hello?")
+assert not matches("", "?")
+```
+
+Also test:
+
+```python
+matches("", "")
+matches("", "*")
+matches("abc", "***")
+matches("abc", "a*c")
+matches("abc", "a**c")
+```
+
+---
+
+## ⭐ Bonus — Add Case-Insensitive Matching
+
+Add an optional parameter:
+
+```python
+find_matches(filename, pattern, ignore_case=False)
+```
+
+For example:
+
+```python
+find_matches("log.txt", "error:*", ignore_case=True)
+```
+
+should match:
+
+```text
+ERROR: connection timeout
+Error: disk full
+error: invalid request
+```
+
+</details>
