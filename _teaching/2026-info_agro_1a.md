@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
 </details>
 
-### 9.4. Exercice Tri par insertion
+### 9.4. Exercice Listes enterlacées
 
 <details markdown="1">
 <summary>Voir la correction</summary>
@@ -146,39 +146,24 @@ if __name__ == "__main__":
 # 1. Imports section
 # It's empty for now, as we don't need any external package on this script
 
-
 # 2. Functions section
-def insere(liste, elem):
+def entrelacer_insertion(liste_1, liste_2):
     """
     Fonction qui inset un élement à sa bonne place dans une liste.
     """
-    # First of all, we search the position for insering the element.
-    i = 0
-    while i < len(liste) and liste[i] < elem :
-        i +=1
-    # We insert elem in i position if it is not the last of the list
-    if i < len(liste) :
-        liste.insert(i,elem)
-    # We insert elem at the end if it is the bigger element into the list
-    else:
-        liste.append(elem)
+    if len(liste_1) == len(liste_2):
+        # First of all, we search the position for insering the element.
+        liste_entrelacee = []
+        for i,j in zip(liste_1, liste_2):
+            liste_entrelacee.extend([i,j])
+        return liste_entrelacee
 
-    return liste
+    return "List are not of the same length, provide to list of the same length."
 
-
-def tri_par_insertion(liste):
-    """
-    Fonction qui trie une liste par insertion
-    """
-    liste_triee = []
-    for el in liste :
-        liste_triee = insere(liste_triee, el)
-    return liste_triee
 
 # 3. Main routine section
 if __name__ == "__main__":
-    print(insere([1,2,4,5,6,9,10], 11))
-    print(tri_par_insertion([10,9,8,7,3,12,13,5,4,1,11,14,2]))
+    print(entrelacer_insertion([1,2,3],["A","B","C"]))
 ```
 
 </details>

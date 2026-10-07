@@ -128,10 +128,12 @@
   font-size: $type-size-5;
 }
 
-.sidebar .author__desktop {
-  display: none;
-  @media screen and (min-width: 1024px) {
-    display: block;
+/* between $large and $sidebar-screen-min-width the sidebar is a narrow
+   column: keep only the photo, name and bio there. Below $large the lines
+   are back, in the "Contact" drop down */
+.sidebar .author__urls li {
+  @media screen and (min-width: $large) and (max-width: $sidebar-screen-min-width - 0.02px) {
+    display: none;
   }
 }
 
