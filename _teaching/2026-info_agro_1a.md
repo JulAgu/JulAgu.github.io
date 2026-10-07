@@ -15,7 +15,7 @@ Pensez à consulter régulièrement cette page !
 
 
 ## TD 1 à 4
-### 9.1. Exercice Tranches d’âge
+### 9.1. Exercise Tranches d’âge
 
 <details markdown="1">
 <summary>Voir la correction</summary>
@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
 </details>
 
-### 9.2. Exercice Devine un nombre
+### 9.2. Exercise Devine un nombre
 
 <details markdown="1">
 <summary>Voir la correction</summary>
@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
 </details>
 
-### 9.3. Exercice Les stars
+### 9.3. Exercise Les stars
 
 <details markdown="1">
 <summary>Voir la correction</summary>
@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
 </details>
 
-### 9.4. Exercice Listes enterlacées
+### 9.4. Exercise Listes enterlacées
 
 <details markdown="1">
 <summary>Voir la correction</summary>
@@ -173,7 +173,7 @@ if __name__ == "__main__":
 Vous maîtrisez la programmation en Python. Vous avez réalisé au moins tous les exercices obligatoires des travaux dirigés 1 et 2. Je vous propose de programmer un petit « grep ».
 
 <details markdown="1">
-<summary>Voir l'excersise</summary>
+<summary>Voir l'exercise</summary>
 
 # Build a Tiny `grep`
 
@@ -181,7 +181,7 @@ In this exercise, you will build a small text-search utility.
 
 The goal is not to reproduce the full Unix `grep` command ([https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)), but to implement a few interesting features yourself.
 
-Develop your tool in the same directory where you should place the [The test file available here](http://julagu.github.io/files/test_tiny_grep.py). 
+Develop your tool in the same directory where you should place [the test file available here](http://julagu.github.io/files/test_tiny_grep.py). 
 
 ---
 
