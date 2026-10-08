@@ -143,6 +143,7 @@ if __name__ == "__main__":
 <details markdown="1">
 <summary>Voir la correction</summary>
 
+```python
 # 1. Imports section
 # It's empty for now, as we don't need any external package on this script
 
@@ -179,6 +180,7 @@ def tri_par_insertion(liste):
 if __name__ == "__main__":
     print(insere([1,2,4,5,6,9,10], 11))
     print(tri_par_insertion([10,9,8,7,3,12,13,5,4,1,11,14,2]))
+```
 
 </details>
 
