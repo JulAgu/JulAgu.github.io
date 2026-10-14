@@ -216,7 +216,7 @@ if __name__ == "__main__":
 
 </details>
 
-### 10.3 Exercise fichiers
+### 10.3. Exercise fichiers
 
 <details markdown="1">
 <summary>Voir la correction</summary>
@@ -288,7 +288,7 @@ if __name__ == "__main__":
 
 ## Pour les éleves avancés
 
-Vous maîtrisez la programmation en Python. Vous avez réalisé au moins tous les exercices obligatoires des travaux dirigés 1 et 2. Je vous propose de programmer un petit « grep ».
+Vous maîtrisez la programmation en Python. Vous avez réalisé au moins tous les exercices obligatoires des TDs 1,2,3 et 4. Je vous propose de programmer un petit « grep ».
 
 <details markdown="1">
 <summary>Voir l'exercise</summary>
