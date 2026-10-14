@@ -216,6 +216,76 @@ if __name__ == "__main__":
 
 </details>
 
+### 10.3 Exercise fichiers
+
+<details markdown="1">
+<summary>Voir la correction</summary>
+
+```python
+# 1. Imports section
+# It's empty as we don't need any external package on this script
+
+
+# 2. Functions section
+
+def compte_nb_lignes(nom_fichier):
+    """
+    Read a file and print the number of lines it has
+    """
+    mon_fichier = open(nom_fichier, "r", encoding="utf-8")
+    liste_lignes = mon_fichier.readlines()
+    mon_fichier.close()
+    print(len(liste_lignes))
+
+def affiche_no_ligne(nom_fichier):
+    """
+    Read a file and print each line alongside its line number
+    """
+    mon_fichier = open(nom_fichier, "r", encoding="utf-8")
+    liste_lignes = mon_fichier.readlines()
+    mon_fichier.close()
+    for i, ligne in enumerate(liste_lignes):
+        print(f"{i} : {ligne[:-1]}")
+
+def decoupe_split(nom_fichier):
+    """
+    Read a file and print a list for each line, where each list element is a word
+    """
+    mon_fichier = open(nom_fichier, "r", encoding="utf-8")
+    liste_lignes = mon_fichier.readlines()
+    mon_fichier.close()
+    for ligne in liste_lignes:
+        print(ligne.split())
+
+def decoupe_algo(nom_fichier):
+    """
+    As `decoupe_algo` but without using the `.split()` method
+    """
+    mon_fichier = open(nom_fichier, "r", encoding="utf-8")
+    liste_lignes = mon_fichier.readlines()
+    mon_fichier.close()
+    for ligne in liste_lignes:
+        L=[]
+        mot=""
+        for caratere in ligne:
+            if caratere != " ":
+                mot += caratere
+            else:
+                L.append(mot)
+                mot=""
+        L.append(mot[:-1])
+        print(L)
+
+# 3. Main routine section
+if __name__ == "__main__":
+    compte_nb_lignes("fable.txt")
+    affiche_no_ligne("fable.txt")
+    decoupe_split("fable_copie.txt")
+    decoupe_algo("fable.txt")
+```
+
+</details>
+
 ## Pour les éleves avancés
 
 Vous maîtrisez la programmation en Python. Vous avez réalisé au moins tous les exercices obligatoires des travaux dirigés 1 et 2. Je vous propose de programmer un petit « grep ».
